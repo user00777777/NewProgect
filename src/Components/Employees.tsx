@@ -1,6 +1,6 @@
 import React from 'react'
  import { N,D } from '../Types'; 
-import Employee from './Employee';
+ import Employee from './Employee'
 export default function Employees() {
 
 
@@ -99,6 +99,6 @@ const{first,second}=outDuty(allDuty)
 // console.log(first());
 
   return (
-    <div><Employee work1={first} work2={second}/></div>
+    <div className='main'><Employee work1={first} work2={second}/></div>
   )
 }

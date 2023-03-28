@@ -1,6 +1,13 @@
-.wrapper{border-color: aquamarine;color: coral;text-align: center;
-height: 100vh;
-display: flex;
-justify-content:space-around;
+.wrapper{/* From https://css.glass */
+    background: rgba(27, 34, 175, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(27, 34, 175, 1);
+    height: 100vh;width: 100%;
 }
 .back:hover{color: rgb(17, 16, 16);font-size: 20px;cursor: pointer;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.glass{height: 400px;width: 500px;
+/* From https://css.glass */
+;}

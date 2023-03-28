@@ -14,6 +14,7 @@ const Layout :React.FC=  ()=> {
    <Link to="/">Home</Link>
    <Link to="/one">OneComponent</Link>
    <Link to='workers'> Дежурные</Link>
+   <Link to ='main'>Главная</Link>
       </header>
   <main className="container">
     <Outlet/>

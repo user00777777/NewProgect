@@ -1,17 +1,17 @@
-import React from 'react';
-import work from'../CssModules/r.module.css'
-interface EmployeeProps {
-  work1: () => string;
-  work2: () => string;
+import React, { FC } from 'react'
+import s from'../CssModules/Employee.module.css'
+type Props = {
+  work1: () => string,
+  work2: () => string
 }
 
-const Employee: React.FC<EmployeeProps> = ({ work1, work2 }) => {
-  return (
-    <div className={work.wrap} >
-      <p className={work.work1}>{work1()}</p>
-      <p className={work.work2}>{work2()}</p>
-    </div>
-  );
-};
+const Employee: FC<Props> = ({ work1, work2 }) => {
+  console.log(work1());
+  
+    return (
+    <div className={s.wrapper}><div className={s.work1}>{work1()}</div >
+    <div>{work2()}</div></div>
+  )
+}
 
-export default Employee;
+export default Employee

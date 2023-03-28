@@ -8,6 +8,7 @@ export default function OneComponent() {
      
       <div onClick={()=>navigate(-1)} className={one.back}>назад</div>
       
-     <div> OneComponent</div></div>
+     <div> OneComponent</div>
+     <div className={one.glass}></div></div>
   )
 }
