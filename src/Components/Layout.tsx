@@ -19,7 +19,7 @@ const Layout :React.FC=  ()=> {
   <main className="container">
     <Outlet/>
   </main> 
-  <footer className="container">ReactProgect</footer>
+  {/* <footer className="container">ReactProgect</footer> */}
    </>
 
   )

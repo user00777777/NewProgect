@@ -6,15 +6,17 @@ import Cranes from './Components/Сranes'
 import {Layout} from './Components/Layout'
 import Main from './Components/Main'
 import OneComponent from './Components/OneComponent'
+import { Homepage } from './Components/Homepage'
 // import OneComponent from './Components/OneComponent'
 
 function App() {
 
 
   return (
-    <>
+    <div className='mainWrap'>
 <Routes>
 <Route  path='/' element={<Layout/>} >
+<Route index element={<Homepage />} />
 <Route path='workers' element={<Employees/>} />
 <Route path='/one' element={<OneComponent/>}/>
 <Route path='/main' element={<Main/>}/>
@@ -25,7 +27,7 @@ function App() {
 </Routes>
 
 
-1    </>
+   </div>
   )
 }
 
