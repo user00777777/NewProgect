@@ -14,16 +14,10 @@ export default function OneComponent() {
 
  
   return (
-    <div className="swiper">
-    <div className="form-floating">
-    <select className="form-select" id="floatingSelect" aria-label="Floating label select example">
-      <option selected="">Open this select menu</option>
-      <option value="1">One</option>
-      <option value="2">Two</option>
-      <option value="3">Three</option>
-    </select>
-    <label for="floatingSelect">Works with selects</label>
+    <div className="btn-group btn-group-lg" role="group" aria-label="Large button group">
+    <button type="button" className="btn btn-primary">Left</button>
+    <button type="button" className="btn btn-primary">Middle</button>
+    <button type="button" className="btn btn-primary">Right</button>
   </div>
-    </div>
   );
 }
