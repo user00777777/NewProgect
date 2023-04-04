@@ -27,8 +27,9 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
+  /* min-width: 320px; */
   min-height: 100vh;
+  width: 100%;
 }
 
 h1 {
@@ -47,23 +48,23 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
+/* button:hover {
   border-color: #646cff;
-}
-button:focus,
+} */
+/* button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
+} */
+/* 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: #13171b;
+    background-color: #db1616;
   }
   a:hover {
-    color: #747bff;
+    color: #de145b;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #4417c0;
   }
-}
+} */

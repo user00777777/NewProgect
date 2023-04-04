@@ -1,14 +1,21 @@
 
         
-.parent {
+ .parent {
+
+    justify-content: center;
+    height:100vh;
+    width:100%;
+align-items:center;
     display: grid;
-    grid-template-columns: 200px 10px repeat(2 ,100px) 10px 200px;
-    grid-template-rows: repeat(19, 40px);
-    grid-column-gap: 7px;
-    grid-row-gap: 5px;
+    grid-template-columns: 150px 10px repeat(2 ,75px) 10px 150px;
+    grid-template-rows: repeat(19, 52px);
+    grid-column-gap: 3px;
+    grid-row-gap: 4px;
+   background-color:rgb(225, 10, 196);
+   min-height: 100vh;
    
-    }
-    
+    } 
+    .t{background-color:black; height:40px}
     .div1 { grid-area: 1 / 1 / 2 / 2; }
     .div2 { grid-area: 1 / 2 / 2 / 3; }
     .div3 { grid-area: 1 / 3 / 2 / 4; }
@@ -57,4 +64,3 @@
     .div46 { grid-area: 14 / 6 / 15 / 7; }
     .div47 { grid-area: 15 / 4 / 16 / 7; }
     .div48 { grid-area: 16 / 6 / 17 / 7; }
-    .t{background-color:black}

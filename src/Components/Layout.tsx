@@ -12,9 +12,12 @@ const Layout :React.FC=  ()=> {
     <>
     <header >
    <Link to="/">Home</Link>
+   <Link to='/m'> Краны </Link>
+
+   <Link to='/first'>First</Link>
    <Link to="/one">OneComponent</Link>
    <Link to='workers'> Дежурные</Link>
-   <Link to ='main'>Главная</Link>
+   {/* <Link to ='main'>Главная</Link> */}
       </header>
   <main className="container">
     <Outlet/>

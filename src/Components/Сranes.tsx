@@ -3,10 +3,10 @@ import s from '../CssModules/Cranes.module.css'
 
 export default function Сranes() {
   return (
-<div className={s.parent}>
+   
+ <div className={s.parent}>
 {/* <div className={[s.div1 ,s.y].join }> e</div> */}
 <div className={[s.div1,s.t].join(' ')}> e</div>
-
 <div className={[s.div2,s.t].join(' ')}> </div>
 <div className={[s.div3,s.t].join(' ')}> №</div>
 <div className={[s.div4,s.t].join(' ')}> №</div>
@@ -54,6 +54,6 @@ export default function Сranes() {
 <div className={[s.div46,s.t].join(' ')}> №</div>
 <div className={[s.div47,s.t].join(' ')}> №</div>
 <div className={[s.div48,s.t].join(' ')}> №</div>
-</div>
+</div> 
   )
 }
