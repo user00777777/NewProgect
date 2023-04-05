@@ -46,7 +46,7 @@ export default function Сranes() {
 <div className={[s.div37,s.t].join(' ')}> Tелега № 051975</div>
 <div className={[s.div38,s.t].join(' ')}> ВС-300</div>
 <div className={[s.div39,s.t].join(' ')}> ВДМ</div>
-<div className={[s.div40,s.t].join(' ')}> Телега №052087	</div>
+<div className={[s.div40,s.t].join(' ')}> Телега <br/> №052087	</div>
 <div className={[s.div41,s.t].join(' ')}> №51843	</div>
 <div className={[s.div42,s.t].join(' ')}> № 51798</div>
 <div className={[s.div43,s.t].join(' ')}> № 51888</div>
