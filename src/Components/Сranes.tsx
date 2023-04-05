@@ -7,10 +7,10 @@ export default function Сranes() {
  <div className={s.parent}>
 {/* <div className={[s.div1 ,s.y].join }> e</div> */}
 
-<div className={[s.div1,s.t].join(' ')}> Монорельс</div>
+<div className={[s.div1,s.t].join(' ')}> М-с</div>
 <div className={[s.div2,s.t].join(' ')}> 333</div>
-<div className={[s.div3,s.t].join(' ')}>Монорельс</div>
-<div className={[s.div4,s.t].join(' ')}> Монорельс</div>
+<div className={[s.div3,s.t].join(' ')}>М-с</div>
+<div className={[s.div4,s.t].join(' ')}> М-с</div>
 <div className={[s.div5,s.t].join(' ')}> Кладовые</div>
 <div className={[s.div6,s.t].join(' ')}> жжжж</div>
 {/* <div className={[s.div7].join(' ')}> </div> */}
@@ -54,9 +54,9 @@ export default function Сranes() {
 <div className={[s.div45,s.t].join(' ')}> №   52939</div>
 <div className={[s.div46,s.t].join(' ')}> № 51795</div>
 <div className={[s.div47,s.t].join(' ')}> № 51797</div>
-<div className={[s.div48,s.t].join(' ')}>монорельс №52057</div>
+<div className={[s.div48,s.t].join(' ')}>м-с №52057</div>
 <div className={[s.div49,s.t].join(' ')}> М№51779</div>
-<div className={[s.div50,s.t].join(' ')}> монорельс№51691</div>
+<div className={[s.div50,s.t].join(' ')}> м-с№51691</div>
 <div className={[s.div51,s.t].join(' ')}> дорога</div>
 <div className={[s.div52,s.t].join(' ')}> №52045</div>
 <div className={[s.div53,s.t].join(' ')}> №51800	</div>
@@ -65,7 +65,7 @@ export default function Сranes() {
 <div className={[s.div56,s.t].join(' ')}> Телега</div>
 <div className={[s.div57,s.t].join(' ')}> №52046</div>
 <div className={[s.div58,s.t].join(' ')}> м№51763	</div>
-<div className={[s.div59,s.t].join(' ')}>монорельс№51690	</div>
+<div className={[s.div59,s.t].join(' ')}>м-с №51690	</div>
 </div> 
   )
 }
