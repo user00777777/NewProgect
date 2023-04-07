@@ -19,9 +19,9 @@ function App() {
 <Route  path='/' element={<Layout/>} >
 <Route index element={<Homepage />} />
 <Route path='workers' element={<Employees/>} />
-<Route path='/one' element={<OneComponent/>}/>
+<Route path='one' element={<OneComponent/>}/>
 {/* <Route path='/main' element={<Main/>}/> */}
-<Route path='/m' element={<Cranes/>}/>
+<Route path='m' element={<Cranes/>}/>
 <Route path='first' element={<First/>}/>
 </Route>
 
