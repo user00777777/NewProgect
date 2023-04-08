@@ -1,4 +1,4 @@
-import {createSlice,PayloadAction}from '@reduxjs/toolkit'
+import {createSlice,PayloadAction, Slice}from '@reduxjs/toolkit'
 type Workers={
 id:string;
 completed?:boolean;
@@ -18,11 +18,11 @@ list:[]
 
 }
 
-const employeesSlice=createSlice({
+const employeesSlice:Slice<JobState>=createSlice({
   name:'employees',
   initialState,
   reducers:{
-one(state,action:PayloadAction<any>){
+one(state,action:PayloadAction<string>){
  state.list.push({
 id:new Date().toISOString(),
 title:action.payload,

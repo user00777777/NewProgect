@@ -11,7 +11,12 @@
         grid-template-rows: repeat(23, 40px);
         grid-column-gap: 0px;
         grid-row-gap:0px ;
-       background-color:rgb(225, 10, 196);
+background: #feffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #feffff 0%, #d2ebf9 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #feffff 0%,#d2ebf9 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #feffff 0%,#d2ebf9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#d2ebf9',GradientType=0 ); /* IE6-9 */
+
       
        
         } 
@@ -83,3 +88,32 @@
         .div57 { grid-area: 18 / 6 / 19 / 7; }
         .div58 { grid-area: 17 / 4 / 18 / 5; }
         .div59 { grid-area: 18 / 1 / 19 / 2; }
+        .inp{font-size: 1rem; height: 30px; grid-area: 17 / 1 / 22 / 3; border-radius:9px ; -webkit-border-radius:9px ; -moz-border-radius:9px ; -ms-border-radius:9px ; -o-border-radius:9px ; }
+       
+        .div60 { grid-area:  20/ 6 / 20 / 4; }
+        .div61 { grid-area: 21 / 7 / 19 / 6; }
+        .div62 { grid-area: 22 / 7 / 19 / 6 }
+        .div63 { grid-area: 23 / 7 / 19 / 6 }
+        .mal{height: min-content;font-size: 13px;gap: 1px;}
+        .h3{grid-area: 20 / 4 / 19 / 7;color: rgb(48, 2, 232);font-size: 22px;}
+        .pp{font-size: 1rem;/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff1a00+0,ff1a00+100;Red+Flat+%231 */
+            background: #ff1a00; /* Old browsers */
+            background: -moz-linear-gradient(top,  #ff1a00 0%, #ff1a00 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top,  #ff1a00 0%,#ff1a00 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom,  #ff1a00 0%,#ff1a00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1a00', endColorstr='#ff1a00',GradientType=0 ); /* IE6-9 */
+           color:rgb(255, 255, 255) }
+           .p{width: 200px;border:red 4px;width: 200px;font-size:20px}
+           .noHoist{background-color:aliceblue}
+           .hoist{background-color:aqua} 
+           .btn {
+            display: flex;
+            height: 30px;
+            grid-area: 17 / 2 / 22 / 3;
+            width: 60px;
+            color: bisque;
+            justify-content: center;
+            align-items: center;
+          }
+          .plus{background-color:aqua;}
+          .notPlus{background-color: rgb(255, 255, 255);}
