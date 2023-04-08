@@ -55,6 +55,46 @@ if (monorail[i].dataset.monorail=='51838') {
  
 
 }
+if (monorail[i].dataset.monorail=='51763') {
+  monorail[i].style.background='white'
+  monorail[i].textContent="Скосы";
+  monorail[i].style.fontSize='20px'
+
+ 
+
+}
+if (monorail[i].dataset.monorail=="51690") {
+  monorail[i].style.background='white'
+  monorail[i].textContent="Савелово";
+  monorail[i].style.fontSize='20px'
+
+ 
+
+}
+if (monorail[i].dataset.monorail=="51779") {
+  monorail[i].style.background='white'
+  monorail[i].textContent="Подпятник середина";
+  monorail[i].style.fontSize='1rem'
+
+ 
+
+}
+if (monorail[i].dataset.monorail=="51691") {
+  monorail[i].style.background='white'
+  monorail[i].textContent="Подпятник стена";
+  monorail[i].style.fontSize='1rem'
+
+ 
+
+}
+if (monorail[i].dataset.monorail=="52057") {
+  monorail[i].style.background='white'
+  monorail[i].textContent="Сливная Яма";
+  monorail[i].style.fontSize='17px'
+
+ 
+
+}
   
 }}
 
@@ -109,13 +149,13 @@ if (monorail[i].dataset.monorail=='51838') {
 <div className={[s.div41,s.t].join(' ')}> №51843	</div>
 <div className={[s.div42,s.t].join(' ')}> № 51798</div>
 <div className={[s.div43,s.t].join(' ')}> № 51888</div>
-<div className={[s.div44,s.t].join(' ')}> № 51843	</div>
+<div className={[s.div44,s.t].join(' ')}> № 52023	</div>
 <div className={[s.div45,s.t].join(' ')}> №   52939</div>
 <div className={[s.div46,s.t].join(' ')}> № 51795</div>
 <div className={[s.div47,s.t].join(' ')}> № 51797</div>
-<div className={[s.div48,s.t].join(' ')}>м-с №52057</div>
-<div className={[s.div49,s.t].join(' ')}> М№51779</div>
-<div className={[s.div50,s.t].join(' ')}> м-с№51691</div>
+<div data-monorail="52057" className={[s.div48,s.t,s.monorail].join(' ')}> Монорельс <span>№52057</span></div>
+<div data-monorail="51779" className={[s.div49,s.t,s.monorail].join(' ')}>Монорельс <span>№51779</span></div>
+<div data-monorail="51691" className={[s.div50,s.t,s.monorail].join(' ')}>Монорельс <span>№51691</span></div>
 <div className={[s.div51,s.t].join(' ')}> дорога</div>
 <div className={[s.div52,s.t].join(' ')}> №52045</div>
 <div className={[s.div53,s.t].join(' ')}> №51800	</div>
@@ -123,8 +163,8 @@ if (monorail[i].dataset.monorail=='51838') {
 <div className={[s.div55,s.t].join(' ')}> №51879</div>
 <div className={[s.div56,s.cart].join(' ')}data-carts="cart"> Телега</div>
 <div className={[s.div57,s.t].join(' ')}> №52046</div>
-<div className={[s.div58,s.t].join(' ')}> м№51763	</div>
-<div className={[s.div59,s.t].join(' ')}>м-с №51690	</div>
+<div data-monorail="51763" className={[s.div58,s.t,s.monorail].join(' ')}>Монорельс <span> №51763</span>	</div>
+<div  data-monorail="51690" className={[s.div59,s.t,s.monorail].join(' ')}>Монорельс <span> №51690</span>	</div>
 
 
 
