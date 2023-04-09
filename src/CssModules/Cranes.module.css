@@ -92,9 +92,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', end
        
         .div60 { grid-area:  20/ 6 / 20 / 4; }
         .div61 { grid-area: 21 / 7 / 19 / 6; }
-        .div62 { grid-area: 22 / 7 / 19 / 6 }
+        .div62 { grid-area: 22 / 7 / 19 / 6 ;height: 20px;font-size: 12px;}
         .div63 { grid-area: 23 / 7 / 19 / 6 }
-        .mal{height: min-content;font-size: 13px;gap: 1px;}
+        .mal{height: fit-content;font-size: 12px;gap: 1px;}
         .h3{grid-area: 20 / 4 / 19 / 7;color: rgb(48, 2, 232);font-size: 22px;}
         .pp{font-size: 1rem;/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff1a00+0,ff1a00+100;Red+Flat+%231 */
             background: #ff1a00; /* Old browsers */
@@ -105,7 +105,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', end
            color:rgb(255, 255, 255) }
            .p{width: 200px;border:red 4px;width: 200px;font-size:20px}
            .noHoist{background-color:aliceblue}
-           .hoist{background-color:aqua} 
+           .hoist{background-color:aqua;z-index: 2;} 
            .btn {
             display: flex;
             height: 30px;
@@ -115,5 +115,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', end
             justify-content: center;
             align-items: center;
           }
-          .plus{background-color:aqua;}
           .notPlus{background-color: rgb(255, 255, 255);}
+          .plus{
+            height: 39px;
+            width: 103px;
+            z-index: 1;
+            font-size: 24px;
+            color:black;
+            font-weight: 700;
+            justify-content: center;
+           
+            align-items:center;
+            text-align: center;
+        border:3px rgb(144, 118, 205) solid}
+        .plus:hover{color:rgb(21, 0, 255)}
+        .new{font-size: 1rem;color:rgb(13, 9, 9)}
+        .machine{color:rgb(0, 0, 0);font-size: 15px;font-weight: 600;word-wrap: break-word;line-height: 14px;}
