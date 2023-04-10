@@ -21,13 +21,19 @@ body {
 
 header {
   background-color: var(--color-bg);
-  padding: 2rem 0;
+  padding: 1rem 0;
   text-align: center;
+
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
 }
 header > a {
   color: rgb(102, 224, 128);
   text-decoration:none;
-  padding: 0 1rem;
+  padding:  8px;
+  height: min-content;
 }
 /* header > a:hover {
   text-decoration: underline;

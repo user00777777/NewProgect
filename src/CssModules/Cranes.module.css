@@ -20,7 +20,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', end
       
        
         } 
-        .t{ background-color:black ; height: 30px; font-size:1fr; text-align: center; border:2px rgb(20, 184, 217) solid; border-radius:10px ; -webkit-border-radius:10px ; -moz-border-radius:10px ; -ms-border-radius:10px ; -o-border-radius:10px ; }
+        .t{ background-color:black ; height: 33px; font-size:1fr; text-align: center; border:2px rgb(20, 184, 217) solid; border-radius:10px ; -webkit-border-radius:10px ; -moz-border-radius:10px ; -ms-border-radius:10px ; -o-border-radius:10px ;
+        word-wrap: break-word;
+        }
+        .t span{color:crimson;font-size: 12px;}
     .cart{ background-color:rgb(121, 234, 7); color:rgb(13, 9, 9); border:2px green solid; border-radius:1rem ; -webkit-border-radius:1rem ; -moz-border-radius:1rem ; -ms-border-radius:1rem ; -o-border-radius:1rem ;
     justify-content: center;text-align: center;font-weight: 600;
     }
@@ -44,7 +47,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', end
         .div13 { grid-area: 3 / 4 / 4 / 5; }
         .div14 { grid-area: 3 / 6 / 4 / 7; }
         .div15 { grid-area: 4 / 1 / 5 / 2; }
-        .div16 { grid-area: 4 / 3 / 5 / 4; }
+        .div16 { grid-area: 4 / 3 / 5 / 4; color:#d2ebf9}
         .div17 { grid-area: 4 / 4 / 5 / 5; }
         .div18 { grid-area: 4 / 6 / 5 / 7; }
         .div19 { grid-area: 5 / 1 / 6 / 2; }
@@ -130,4 +133,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', end
         border:3px rgb(144, 118, 205) solid}
         .plus:hover{color:rgb(21, 0, 255)}
         .new{font-size: 1rem;color:rgb(13, 9, 9)}
-        .machine{color:rgb(0, 0, 0);font-size: 15px;font-weight: 600;word-wrap: break-word;line-height: 14px;}
+        .machine{color:rgb(0, 0, 0);font-size: 15px;font-weight: 600;word-wrap: break-word;line-height: 15px;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+        }
