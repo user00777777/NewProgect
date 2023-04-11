@@ -156,7 +156,7 @@ return (
 <div data-hoist='51880' data-machine='SM2414<br><span>№52800<span/>' className={[s.div54,s.t,'t'].join(' ')}> 51880</div>
 <div data-hoist='51879' data-machine='K0501<br><span>№052150<span/>' className={[s.div55,s.t,'t'].join(' ')}>51879</div>
 <div className={[s.div56,s.cart].join(' ')}data-carts="cart"> Телега</div>
-<div data-hoist='52046' data-machine='K0501<span>№051855<span/>' className={[s.div57,s.t,'t'].join(' ')}> №52046</div>
+<div data-hoist='52046' data-machine='K0501<br><span>№051855<span/>' className={[s.div57,s.t,'t'].join(' ')}> №52046</div>
 <div data-monorail="51763" className={[s.div58,s.t,s.monorail].join(' ')}>Монорельс <span> №51763</span>	</div>
 <div  data-monorail="51690" className={[s.div59,s.t,s.monorail].join(' ')}>Монорельс <span> №51690</span>	</div>
 
