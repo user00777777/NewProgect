@@ -141,7 +141,7 @@ return (
 <div className={[s.div39,s.t].join(' ')}> ВДМ</div>
 <div className={[s.div44,s.cart].join(' ')} data-carts="052087"> Телега <br/> 052087	</div>
 <div data-hoist='51843'data-machine='клепка<br><span>№051110<span/>' className={[s.div41,s.t,'t'].join(' ')}> 51843	</div>
-<div data-hoist='51798'data-machine='2A554<span>№051819<span/>' className={[s.div42,s.t,'t'].join(' ')}> 51798</div>
+<div data-hoist='51798'data-machine='2A554<br><span>№051819<span/>' className={[s.div42,s.t,'t'].join(' ')}> 51798</div>
 <div data-hoist='51888'data-machine='SB832<br><span>№052052<span/>' className={[s.div43,s.t,'t'].join(' ')}>  51888</div>
 <div data-hoist='52023'data-machine='сливная яма' className={[s.div40,s.t,'t'].join(' ')}>52023	</div>
 <div data-hoist='52939'data-machine='SB980<br><span>№<span/>' className={[s.div45,s.t,'t'].join(' ')}> 52939</div>
@@ -152,9 +152,9 @@ return (
 <div data-monorail="51691" className={[s.div50,s.t,s.monorail].join(' ')}>Монорельс <span>51691</span></div>
 <div className={[s.div51,s.t].join(' ')}> дорога</div>
 <div data-hoist='52045' data-machine='2H55<br><span>№11917<span/>' className={[s.div52,s.t,'t'].join(' ')}> 52045</div>
-<div data-hoist='51800' data-machine='ФП27П<span>№052232<span/>' className={[s.div53,s.t,'t'].join(' ')}> 51800	</div>
-<div data-hoist='51880' data-machine='SM2414<span>№52800<span/>' className={[s.div54,s.t,'t'].join(' ')}> 51880</div>
-<div data-hoist='51879' data-machine='K0501<span>№052150<span/>' className={[s.div55,s.t,'t'].join(' ')}>51879</div>
+<div data-hoist='51800' data-machine='ФП27П<br><span>№052232<span/>' className={[s.div53,s.t,'t'].join(' ')}> 51800	</div>
+<div data-hoist='51880' data-machine='SM2414<br><span>№52800<span/>' className={[s.div54,s.t,'t'].join(' ')}> 51880</div>
+<div data-hoist='51879' data-machine='K0501<br><span>№052150<span/>' className={[s.div55,s.t,'t'].join(' ')}>51879</div>
 <div className={[s.div56,s.cart].join(' ')}data-carts="cart"> Телега</div>
 <div data-hoist='52046' data-machine='K0501<span>№051855<span/>' className={[s.div57,s.t,'t'].join(' ')}> №52046</div>
 <div data-monorail="51763" className={[s.div58,s.t,s.monorail].join(' ')}>Монорельс <span> №51763</span>	</div>
