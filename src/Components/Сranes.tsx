@@ -122,14 +122,14 @@ return (
 <div data-hoist='51922' data-machine='2A554<br><span>№051773<span/>' className={[s.div20,s.t,'t'].join(' ')}> 51922</div>
 <div data-hoist='51924' data-machine='2H55<br><span>№1705<span/>' className={[s.div21,s.t,'t'].join(' ')}> 51924</div>
 <div data-hoist='51770' data-machine='СБ833<br><span>№052055<span/>' className={[s.div22,s.t,'t'].join(' ')}> 51770</div>
-<div data-hoist='51871' data-machine='SB972 Окно' className={[s.div23,s.t,'t'].join(' ')}> 51871</div>
+<div data-hoist='51871' data-machine='SB972<br><span>№052910<span/> ' className={[s.div23,s.t,'t'].join(' ')}> 51871</div>
 <div data-hoist='51926' data-machine='клепка<br><span>№051791<span/>' className={[s.div24,s.t,'t'].join(' ')}> 51926</div>
 <div data-hoist='51925' data-machine='клепка<br><span>№051814<span/>' className={[s.div25,s.t,'t'].join(' ')}> 51925</div>
-<div data-hoist='51792' data-machine='SB972 Стена' className={[s.div26,s.t,'t'].join(' ')}> 51792</div>
+<div data-hoist='51792' data-machine='SB972 <br><span>№052911<span/>' className={[s.div26,s.t,'t'].join(' ')}> 51792</div>
 <div className={[s.div27,s.cart].join(' ')} data-carts="051973"> телега№ 051973</div>
 <div className={[s.div28,s.t].join(' ')}> Шу Телеги</div>
 <div data-hoist='51872'data-machine='SB898 <br><span>№052331<span/>' className={[s.div29,s.t,'t'].join(' ')}> 51872</div>
-<div data-hoist='51908'data-machine='новый 16-шпиндельный' className={[s.div30,s.t,'t'].join(' ')}> 51908</div>
+<div data-hoist='51908'data-machine='Сб973<br><span>№52913<span/>' className={[s.div30,s.t,'t'].join(' ')}> 51908</div>
 <div data-hoist='51892'data-machine='клепка<br><span>№051791<span/>' className={[s.div31,s.t,'t'].join(' ')}> 51892</div>
 <div className={[s.div32,s.t].join(' ')}> -----------</div>
 <div data-hoist='51831' data-machine='2A554 стол Здача' className={[s.div33,s.t,'t'].join(' ')}> 51831</div>
@@ -144,7 +144,7 @@ return (
 <div data-hoist='51798'data-machine='2A554<br><span>№051819<span/>' className={[s.div42,s.t,'t'].join(' ')}> 51798</div>
 <div data-hoist='51888'data-machine='SB832<br><span>№052052<span/>' className={[s.div43,s.t,'t'].join(' ')}>  51888</div>
 <div data-hoist='52023'data-machine='сливная яма' className={[s.div40,s.t,'t'].join(' ')}>52023	</div>
-<div data-hoist='52939'data-machine='SB980<br><span>№<span/>' className={[s.div45,s.t,'t'].join(' ')}> 52939</div>
+<div data-hoist='52939'data-machine='SB980<br><span>№52944<span/>' className={[s.div45,s.t,'t'].join(' ')}> 52939</div>
 <div data-hoist='51795'data-machine='клепка<br><span>№051109<span/>' className={[s.div46,s.t,'t'].join(' ')}> 51795</div>
 <div data-hoist='51797'data-machine='SB832<br><span>№052051<span/>' className={[s.div47,s.t,'t'].join(' ')}>51797</div>
 <div data-monorail="52057" className={[s.div48,s.t,s.monorail].join(' ')}> Монорельс <span>52057</span></div>
